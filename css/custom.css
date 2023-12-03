@@ -1,0 +1,52 @@
+html {
+    scroll-behavior: smooth !important;
+}
+.result {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+}
+
+@keyframes transform {
+    0% {
+        transform: scale(0.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.bookingloader {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
+.bookingloaderimg {
+    image-resolution: from-image;
+    mix-blend-mode: screen;
+    height: 92px;
+    width: 92px;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+    margin: 20px;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
